@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web PPDB</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/Logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Informasi
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Alur PPDB</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Aturan Pelaksanaan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Jadwal Pelaksanaan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Jalur PPDB</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Panduan</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Data PPDB
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Kuota Jalur</a></li>
+                <li><a class="dropdown-item" href="#">Daya Tampung</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Cek Status Pendaftar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Cek Hasil Seleksi</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Login Aplikasi
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Login Sekolah</a></li>
+                <li><a class="dropdown-item" href="#">Login Dinas</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- header -->
+    <header>
+      <div class="container">
+        <h4 class="mb-4">Selamat Datang</h4>
+        <h1 class="mb-1 display-3 font-bold">Di Web Portal PPDB</h1>
+        <h5 class="mb-5">SMK Negeri 1 Tanjung Jabung Timur</h5>
+        <p class="fs-5">Tahun Pelajaran 2023- 2024</p>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- aplikasi ppdb -->
+    <section class="mt-5">
+      <div class="container">
+        <h3 class="text-center title">Aplikasi PPDB</h3>
+        <div class="row mt-5 g-5">
+          <div class="col-md-3">
+            <img
+              src="img/pendaftaran.svg"
+              alt=""
+              width="100%"
+              class="d-block mx-auto"
+            />
+            <p class="fs-5 text-center mt-3 font-bold">Pendaftaran</p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="img/cek_hasil_seleksi.svg"
+              class="d-block mx-auto"
+              alt=""
+              width="80%"
+            />
+            <p class="fs-5 text-center mt-3 font-bold">Cek Hasil Seleksi</p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="img/ppdb_login_sekolah.svg"
+              alt=""
+              width="100%"
+              class="d-block mx-auto"
+            />
+            <p class="fs-5 text-center mt-3 font-bold">PPDB Login Sekolah</p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="img/ppdb_login_dinas.svg"
+              alt=""
+              width="70%"
+              class="d-block mx-auto"
+            />
+            <p class="fs-5 text-center mt-3 font-bold">PPDB Login Dinas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end aplikasi ppdb -->
+
+    <!-- deskripsi PPDB -->
+    <section class="mt-5">
+      <div class="container">
+        <h3 class="text-center title">Deskripsi PPDB</h3>
+        <div class="row mt-5 g-4">
+          <div class="col-md-6">
+            <img
+              src="img/deskripsi_ppdb.svg"
+              width="70%"
+              class="d-block mx-auto"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6">
+            <p>
+              PPDB adalah singkatan dari Penerimaan Peserta Didik Baru. PPDB
+              online adalah sebuah sistem yang dirancang sebagai sumber / pusat
+              informasi dan pengelolaan proses seleksi penerimaan siswa baru
+              jenjang TK, SD, dan SMP mulai dari proses pendaftaran, proses
+              seleksi sampai dengan pengumuman hasil seleksi berbasis Teknologi
+              Informasi dan Komunikasi dilakukan secara online.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- deskripsi PPDB -->
+
+    <!-- jalur PPDB -->
+    <section class="mt-5">
+      <div class="container">
+        <h3 class="text-center title">Jalur PPDB</h3>
+        <div class="row g-4 mt-5">
+          <div class="col-md-3">
+            <img src="img/zonasi.png" alt="" class="icon d-block mx-auto" />
+            <p class="fs-5 text-center mt-3 font-bold">Jalur Zonasi</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/prestasi.png" alt="" class="icon d-block mx-auto" />
+            <p class="fs-5 text-center mt-3 font-bold">Jalur Prestasi</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/afirmasi.png" alt="" class="icon d-block mx-auto" />
+            <p class="fs-5 text-center mt-3 font-bold">
+              Jalur Afirmasi dan anak berkebutuhan khusus
+            </p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="img/perpindahan.png"
+              alt=""
+              class="icon d-block mx-auto"
+            />
+            <p class="fs-5 text-center mt-3 font-bold">
+              Jalur perpindahan orang tua, maslahat guru, dan tenaga
+              kependidikan
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jalur PPDB -->
+
+    <!-- manfaat PPDB -->
+    <section class="mt-5">
+      <div class="container">
+        <h3 class="title text-center">Manfaat PPDB</h3>
+        <div class="row mt-5 g-4">
+          <div class="col-md-6">
+            <img src="img/ppdb_login_sekolah.svg" alt="" width="100%" />
+          </div>
+          <div class="col-md-6">
+            <h4>Manfaat bagi sekolah dan dinas pendidikan</h4>
+            <ol>
+              <li>Pelayanan PPDB menjadi tertib dan lancar</li>
+              <li>
+                Penyelenggaraan PPDB yang lebih baik, lancar,transparan, dan
+                akuntabel
+              </li>
+              <li>Data PPDB terkelola dengan baik di sistem</li>
+              <li>Seleksi yang terbuka, jujur, dan adil</li>
+              <li>Meningkatkan mutu layanan pendidikan</li>
+              <li>Mendorong peningkatan penguasaan</li>
+              <li>
+                Teknologi informasi kepada masyarakat akses 24 jam bisa
+                dilakukan darimana dan kapan saja, karena cukup menggunakan
+                smartphone dan gadget.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="row mt-5 g-4">
+          <div class="col-md-6">
+            <h4>Manfaat bagi pendaftar</h4>
+            <ol>
+              <li>Mempermudah untuk mengikuti pendaftaran siswa baru</li>
+              <li>Mempermudah akses informasi penerimaan siswa baru</li>
+              <li>
+                Meningkatkan ketertiban dan kemudahandalam proses penerimaan
+                siswa baru
+              </li>
+              <li>Seleksi yang terbuka, jujur, dan adil</li>
+              <li>Meningkatkan mutu layanan pendidikan</li>
+              <li>
+                Turut aktif dalam proses pelaksanaan PPDB dengan lebih mudah dan
+                cepat
+              </li>
+            </ol>
+          </div>
+          <div class="col-md-6">
+            <img src="img/undraw_my_password_re_ydq7.svg" alt="" width="70%" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- manfaat PPDB -->
+
+    <!-- footer -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img src="img/Logo.png" alt="" width="100%" />
+            <p class="mt-3 text-secondary">
+              Jl. Jemantan, Talang Babat, Kec. Muara Sabak Barat, Kab. Tanjung
+              Jabung Timur, Prov. Jambi
+            </p>
+            <h5 class="my-3">Hubungi Kami</h5>
+            <p class="mb-0">
+              <img src="img/telepon.png" alt="" width="20px" />
+              <span>(021) 111 222</span>
+            </p>
+            <p>
+              <img src="img/email.png" alt="" width="20px" />
+              <span>mail@mail.com</span>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Lihat lokasi di peta</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9059062368815!2d103.78424131427435!3d-1.2253646359071886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e25e3a536b16273%3A0xe7d45cbacf660975!2sSMK%20Negeri%201%20Muara%20Sabak%20Barat%20Tanjung%20Jabung%20Timur!5e0!3m2!1sen!2sid!4v1672103953641!5m2!1sen!2sid"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-3">Ikuti sosial media kami</h5>
+            <div class="d-flex" style="gap: 15px">
+              <a href="#">
+                <img src="img/instagram.png" alt="" width="30px" />
+              </a>
+              <a href="#">
+                <img src="img/facebook.png" alt="" width="30px" />
+              </a>
+              <a href="#">
+                <img src="img/website.png" alt="" width="30px" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
